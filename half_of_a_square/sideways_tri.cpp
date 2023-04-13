@@ -4,11 +4,10 @@ using std::cout;
 
 int main()
 {
-
-    for (int row = 1; row <= 5; row++)
+    for (int row = 1; row <= 8; row++)
     {
 
-        for (int hashNum = 1; hashNum <= 6 - row; hashNum++)
+        for (int hashNum = 1; hashNum <= 4 - abs(4 - row); hashNum++)
         {
             cout << "#";
         }
